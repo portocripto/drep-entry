@@ -60,29 +60,21 @@
       }
     }
   },
-  "authors": [
-    {
-      "witness": {
-        "publicKey": "",
-        "signature": "",
-        "witnessAlgorithm": "Ed25519"
-      }
-    }
-  ],
+  "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "doNotList": false,
     "bio": "A multi-signature DREP created by Atico Mismana and Bosco NFTs, from Cardanistas Pool, to represent and engage the Portuguese-speaking community in Cardano Governance.",
     "email": "drep@portocripto.io",
-    "givenName": "Porto Cripto 🇧🇷 🇵🇹 (Atico & Bosco from Cardanistas Pool)",
+    "givenName": "Porto Cripto DRep 🇧🇷 🇵🇹 [Atico & Bosco, from Cardanistas Stake Pool (CARDs)]",
     "image": {
       "@type": "ImageObject",
-      "contentUrl": "https://i.pinimg.com/1200x/ee/48/ff/ee48ff678d98858a26dac3ca27572c09.jpg",
+      "contentUrl": "https://github.com/portocripto/drep-entry/blob/main/image_short.jpg",
       "sha256": "3af192358221d12e6581ba9689cb8a7a50da83652aa617caa93969a8b18f6093"
     },
     "motivations": "-",
     "objectives": "-",
-    "paymentAddress": "",
+    "paymentAddress": "addr1qylx0sq02vj24ljgumayw39tlt46qgf4nqf5dn52kmh9dnnkedalhczs76ke990wyy2cjezumpcrg7m4n9z94fvzen3qlslgrt",
     "qualifications": "-\n\n-",
     "references": [
       {
