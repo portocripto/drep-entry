@@ -62,9 +62,9 @@
   },
   "authors": [
     {
-      "witness": ???? {
-        "publicKey": "a4010103272006215820a10fd073cc0f0773c6be227d34304b2e23233eea77a36ee448da5fc4da9ef852",
-        "signature": "845846a20127676164647265737358390152b785f7e63db13cefabc9ec38a24b7c54368bc4f962d01927a3491525b57d0e01bd657db7fddeb5528bddf88f1d9d445c992dffd3936f9ea166686173686564f5581c918e8c8ec047869c292bc2293bd9f97178060a48c067a1d66ce70fd85840ff1a03113766debf819bb4e4a2fc183d4c1598433f0c20f6be5968816873e2f42ae2583e6b72e39c3ed2e2e7831f9fe96aae80d0bf2275f02e9ed4d99b283d0a",
+      "witness": {
+        "publicKey": "",
+        "signature": "",
         "witnessAlgorithm": "Ed25519"
       }
     }
@@ -82,7 +82,7 @@
     },
     "motivations": "-",
     "objectives": "-",
-    "paymentAddress": ?? "addr1q9ft0p0huc7mz08040y7cw9zfd79gd5tcnuk95qey735j9f9k47suqdav47m0lw7k4fghh0c3uwe63zunykll5und70qg9szha",
+    "paymentAddress": "",
     "qualifications": "-\n\n-",
     "references": [
       {
