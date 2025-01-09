@@ -1,0 +1,122 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "bio": "A multi-signature DREP created by Atico Mismana and Bosco NFTs, from Cardanistas Pool, to represent and engage the Portuguese-speaking community in Cardano Governance.",
+    "email": "drep@portocripto.io",
+    "givenName": "Porto Cripto DRep 🇧🇷 🇵🇹 [Atico & Bosco, from Cardanistas Stake Pool (CARDs)]",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://github.com/portocripto/drep-entry/blob/main/image_short.jpg",
+      "sha256": "3af192358221d12e6581ba9689cb8a7a50da83652aa617caa93969a8b18f6093"
+    },
+    "motivations": "-",
+    "objectives": "-",
+    "paymentAddress": "addr1qylx0sq02vj24ljgumayw39tlt46qgf4nqf5dn52kmh9dnnkedalhczs76ke990wyy2cjezumpcrg7m4n9z94fvzen3qlslgrt",
+    "qualifications": "-\n\n-",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Whatsapp Channel",
+        "uri": "https://whatsapp.com/channel/0029Vb1NkqG3bbV4i2ligy2k"
+      },
+      {
+        "@type": "Link",
+        "label": "Telegram Channel",
+        "uri": "https://t.me/portocripto"
+      },
+      {
+        "@type": "Link",
+        "label": "Youtube",
+        "uri": "https://youtube.com/@portocripto"
+      },
+      {
+        "@type": "Link",
+        "label": "X",
+        "uri": "https://x.com/portocripto"
+      },
+      {
+        "@type": "Link",
+        "label": "Instagram",
+        "uri": "https://instagram.com/portocripto"
+      },
+      {
+        "@type": "Link",
+        "label": "Linktree",
+        "uri": "https://linktr.ee/portocripto"
+      },
+      {
+        "@type": "Link",
+        "label": "Porto Cripto",
+        "uri": "https://portocripto.io"
+      },
+      {
+        "@type": "Identity",
+        "label": "DRep ID in X bio",
+        "uri": "https://x.com/portocripto"
+      }
+    ]
+  }
+}
