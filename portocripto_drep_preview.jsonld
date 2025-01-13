@@ -64,18 +64,18 @@
   "hashAlgorithm": "blake2b-256",
   "body": {
     "doNotList": false,
-    "bio": "A multi-signature DREP created by Atico Mismana and Bosco NFTs, from Cardanistas Pool, to represent and engage the Portuguese-speaking community in Cardano Governance.",
+    "bio": "Um DREP multiassinatura criado por Ático Mismana e Bosco NFTs, da pool Cardanistas no Brasil, para representar e engajar a comunidade de Língua Portuguesa na Governança da Cardano.\n\n\n[English]\n\nA multi-signature DREP created by Atico Mismana and Bosco NFTs, from Cardanistas Pool, to represent and engage the Portuguese-speaking community in Cardano Governance.",
     "email": "drep@portocripto.io",
-    "givenName": "Porto Cripto DRep 🇧🇷 🇵🇹 [Atico & Bosco, from Cardanistas Stake Pool (CARDs)]",
+    "givenName": "Porto Cripto DRep 🇧🇷 🇵🇹 (Atico & Bosco, from Cardanistas Stake Pool - CARDs)",
     "image": {
       "@type": "ImageObject",
       "contentUrl": "https://github.com/portocripto/drep-entry/blob/main/image_short.jpg",
       "sha256": "3af192358221d12e6581ba9689cb8a7a50da83652aa617caa93969a8b18f6093"
     },
-    "motivations": "-",
-    "objectives": "-",
+    "motivations": "[This text is written in Portuguese. Use your preferred translator to convert it into English, if needed.]\n\n\nNossa motivação:\n\nA blockchain Cardano, além de ser um novo sistema financeiro para mercados emergentes, se tornou uma nação criptográfica; nela, os holders do token $ADA, espalhados por todo o mundo, são seus cidadãos. No entanto, existe uma barreira da língua que impede os holders não falantes da Língua Inglesa de exercerem sua cidadania.\n\nNossa motivação é representar e engajar a comunidade falante da Língua Portuguesa na governança da Cardano.\n\nSão mais de 265 milhões de falantes de Português no mundo, sendo 215 milhões de brasileiros, o maior país lusófono. É o 6º idioma mais falado no mundo e o 3º mais falado no Ocidente, atrás apenas do Inglês e do Espanhol.",
+    "objectives": "[This text is written in Portuguese. Use your preferred translator to convert it into English, if needed.]\n\n\nNossos objetivos:\n\n1. Representar com transparência, por meio do voto e prestação de contas, os interesses dos holders do token $ADA, atuando à luz da Constituição e com responsabilidade;\n2. Engajar a comunidade falante da Língua Portuguesa na governança da Cardano através de vídeos no YouTube, postagens e formação de comunidades em redes sociais como o WhatsApp, Telegram, Instagram, dentre outros.",
     "paymentAddress": "addr_test1qqlx0sq02vj24ljgumayw39tlt46qgf4nqf5dn52kmh9dnnkedalhczs76ke990wyy2cjezumpcrg7m4n9z94fvzen3quxzg05",
-    "qualifications": "-\n\n-",
+    "qualifications": "[This text is written in Portuguese. Use your preferred translator to convert it into English, if needed.]\n\n\nNossas qualificações:\n\nTrabalhamos juntos na comunidade lusófona da Cardano há mais de 5 anos, desempenhando funções que trouxeram e deram suporte a usuários, desenvolvedores e empreendedores no nosso ecossistema.\n\nJuntos operamos a pool Cardanistas desde 2020, produzindo vídeos e outros materiais educacionais, realizando cursos e eventos, hospedando Spaces no Twitter/X, bem como gerenciando o maior grupo sobre Cardano em Língua Portuguesa no Telegram.\n\n- Expertise Técnica:\n\nBosco: Fluente em Português (brasileiro nato), Espanhol e Inglês, com vivência internacional de 7 anos nos EUA; Experiência em produção de conteúdo do ecossistema Cardano.\n\nÁtico Mismana: É desenvolvedor de software desde 2009, tendo trabalhado com as linguagens de programação: Delphi, Java, Python, JavaScript, C# .NET e C++ em projetos de inovação robótica. Atualmente trabalha em projetos Web 3.",
     "references": [
       {
         "@type": "Link",
