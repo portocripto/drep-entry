@@ -64,18 +64,18 @@
   "hashAlgorithm": "blake2b-256",
   "body": {
     "doNotList": false,
-    "bio": "A multi-signature DREP created by Atico Mismana and Bosco NFTs, from Cardanistas Pool, to represent and engage the Portuguese-speaking community in Cardano Governance.",
+    "bio": "Um DREP multiassinatura criado por Ático Mismana e Bosco, da pool Cardanistas no Brasil, para representar e engajar a comunidade de Língua Portuguesa na Governança da Cardano. \n\n[English] \n\nA multi-signature DRep created by Ático Mismana and Bosco from the Cardanistas pool in Brazil, to represent and engage the Portuguese-speaking community in Cardano Governance.",
     "email": "drep@portocripto.io",
-    "givenName": "Porto Cripto DRep 🇧🇷 🇵🇹 [Atico & Bosco, from Cardanistas Stake Pool (CARDs)]",
+    "givenName": "Porto Cripto DRep 🇧🇷 🇵🇹 (Atico & Bosco, from Cardanistas Stake Pool - CARDs)",
     "image": {
       "@type": "ImageObject",
       "contentUrl": "https://github.com/portocripto/drep-entry/blob/main/image_short.jpg",
       "sha256": "3af192358221d12e6581ba9689cb8a7a50da83652aa617caa93969a8b18f6093"
     },
-    "motivations": "-",
-    "objectives": "-",
-    "paymentAddress": "addr1qylx0sq02vj24ljgumayw39tlt46qgf4nqf5dn52kmh9dnnkedalhczs76ke990wyy2cjezumpcrg7m4n9z94fvzen3qlslgrt",
-    "qualifications": "-\n\n-",
+    "motivations": "A blockchain Cardano, além de ser um novo sistema financeiro para mercados emergentes, tornou-se uma nação criptográfica; nela, os holders do token $ADA são seus cidadãos. Porém, a língua é uma barreira que impede holders não falantes de Inglês de exercerem sua cidadania. Nossa motivação é engajar e representar a comunidade lusófona na governança da Cardano, que possui mais de 265 milhões de falantes, sendo 215 milhões no Brasil, o maior país lusófono. \n\n[English] \nThe Cardano blockchain, in addition to being a new financial system for emerging markets, has become a cryptographic nation; within it, $ADA token holders are its citizens. However, language is a barrier that prevents non-English-speaking holders from exercising their citizenship. Our motivation is to engage and represent the Portuguese-speaking community in Cardano governance, with over 265 million speakers, including 215 million in Brazil, the largest lusophone country.",
+    "objectives": "- Primeiro:  Representar com transparência, por meio do voto e prestação de contas, os interesses dos holders do token $ADA, atuando à luz da Constituição e com responsabilidade; \n- Segundo: Engajar a comunidade falante da Língua Portuguesa na governança da Cardano através de vídeos no YouTube, postagens e formação de comunidades em redes sociais como o WhatsApp, Telegram, Instagram, dentre outros. \n\n[English] \n- First: Transparently represent, through voting and accountability, the interests of $ADA token holders, acting in accordance with the Constitution and with responsibility; \n- Second: Engage the Portuguese-speaking community in Cardano governance through YouTube videos, posts, and the creation of communities on social media platforms like WhatsApp, Telegram, Instagram, among others.",
+    "paymentAddress": "addr1q8rgxzz5xhnd8vjcjj07jckwh2zp68m0dvqrmzcajqp308k2gaxzh655pqpq6u70fuyh9w3gwp79rpcehamqxr3pt96qtslpvq",
+    "qualifications": "Trabalhamos juntos na comunidade lusófona da Cardano há mais de 5 anos, apoiando usuários, desenvolvedores e empreendedores. Operamos a pool Cardanistas desde 2020, produzindo materiais educativos, cursos e eventos, além de gerenciar o maior grupo de Cardano em Língua Portuguesa no Telegram. Bosco tem ampla experiência em atendimento e produção de conteúdo no ecossistema Cardano. Ático é desenvolvedor de software desde 2009, atualmente atuando em projetos Web 3. \n\n[English] \nWe have been working together in the Portuguese-speaking Cardano community for over 5 years, supporting users, developers, and entrepreneurs. Since 2020, we have operated the Cardanistas pool, producing educational materials, courses, and events, as well as managing the largest Portuguese-speaking Cardano group on Telegram. Bosco has extensive experience in customer support and content production in the Cardano ecosystem. Ático is a software developer since 2009, currently working on Web 3 projects.",
     "references": [
       {
         "@type": "Link",
