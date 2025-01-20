@@ -69,7 +69,7 @@
     "givenName": "Porto Cripto DRep 🇧🇷 🇵🇹 (Atico & Bosco, from Cardanistas Stake Pool - CARDs)",
     "image": {
       "@type": "ImageObject",
-      "contentUrl": "https://github.com/portocripto/drep-entry/blob/main/image_short.jpg",
+      "contentUrl": "https://raw.githubusercontent.com/portocripto/drep-entry/refs/heads/main/image_short.jpg",
       "sha256": "3af192358221d12e6581ba9689cb8a7a50da83652aa617caa93969a8b18f6093"
     },
     "motivations": "A blockchain Cardano, além de ser um novo sistema financeiro para mercados emergentes, tornou-se uma nação criptográfica; nela, os holders do token $ADA são seus cidadãos. Porém, a língua é uma barreira que impede holders não falantes de Inglês de exercerem sua cidadania. Nossa motivação é engajar e representar a comunidade lusófona na governança da Cardano, que possui mais de 265 milhões de falantes, sendo 215 milhões no Brasil, o maior país lusófono. \n\n[English] \nThe Cardano blockchain, in addition to being a new financial system for emerging markets, has become a cryptographic nation; within it, $ADA token holders are its citizens. However, language is a barrier that prevents non-English-speaking holders from exercising their citizenship. Our motivation is to engage and represent the Portuguese-speaking community in Cardano governance, with over 265 million speakers, including 215 million in Brazil, the largest lusophone country.",
