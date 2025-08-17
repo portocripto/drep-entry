@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança (gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlr24hsvpk), pois essa proposta envolve três itens essenciais que precisam ser debatidos com os holders da Cardano, em diversas instâncias virtuais e presenciais, de modo a construirmos o futuro da Cardano ouvindo o maior número de stakeholders possível. São eles: a Visão Cardano 2030, o roadmap para 2026 e o primeiro esforço consolidado de pesquisa de produto da Cardano. Além disso, a justificativa de gastos apresentada, bem como as métricas de avaliação e controle, foram bem apresentadas.\n[English]\nWe chose to vote \"YES\" on this governance action (gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlr24hsvpk), because this proposal involves three essential items that need to be discussed with Cardano holders, in various virtual and in-person instances, in order to build the future of Cardano by listening to as many stakeholders as possible. These are: the Cardano Vision 2030, the roadmap for 2026, and the first consolidated product research effort for Cardano. Furthermore, the expense justification presented, as well as the evaluation and control metrics, were well presented."
+  },
+  "hashAlgorithm": "blake2b-256"
+}

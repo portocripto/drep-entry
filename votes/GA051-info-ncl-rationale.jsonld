@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos pela \"ABSTENÇÃO\" nesta ação de governança (gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlzsz6jpjn), pois acreditamos que os tokens a serem listados em exchanges de nível 1 deveriam ser especificados na proposta, ao invés de haver uma indicação genérica. Tratamos como tokens prioritários stablecoins CNT (DJED, IUSD, USDM, USDA), e pela proposta não trazer essa especificação ou priorização, nos abstemos de apoiá-la neste momento. Recomendamos a re-submissão do projeto especificando os tokens e respectivas exchanges em que as listagens ocorrerão.\n[English]\nWe chose \"ABSTENTION\" on this governance action (gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlzsz6jpjn), because we believe that the tokens to be listed on tier 1 exchanges should be specified in the proposal, rather than having a generic indication. We consider CNT stablecoins (DJED, IUSD, USDM, USDA) as priority tokens, and since the proposal does not bring this specification or prioritization, we abstain from supporting it at this time. We recommend the project be resubmitted specifying the tokens and the respective exchanges where the listings will take place."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
