@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"NÃO\" nesta ação de governança (gov_action1jr84r96lnsvu9yd6c0jhxe9gj5r7vnd2pgkntc6klplxdpyzz4tqqc9uldx), pois a SNEK já está listada em diversas exchanges. No entanto, a proposta não especifica em qual exchange há intenção ou negociação para uma nova listagem, o que impede uma avaliação adequada da relação risco/retorno do empréstimo solicitado. Caso houvesse informações mais concretas — por exemplo, a existência de um orçamento ou pré-acordo de listagem na Binance — a proposta poderia ser vista de forma mais favorável, ainda que permanecessem riscos relevantes, como a ausência de colateral de garantia. Diante da falta dessa definição mais clara, optamos por recusar a proposta neste momento.\n[English]\nWe chose to vote \"NO\" on this governance action (gov_action1jr84r96lnsvu9yd6c0jhxe9gj5r7vnd2pgkntc6klplxdpyzz4tqqc9uldx), because SNEK is already listed on several exchanges. However, the proposal does not specify which exchange there is an intention or negotiation for a new listing, which prevents a proper assessment of the risk/return ratio of the requested loan. If there were more concrete information — for example, the existence of a budget or a preliminary listing agreement with Binance — the proposal could be viewed more favorably, even though relevant risks would remain, such as the lack of collateral guarantees. Given the lack of a clearer definition, we chose to reject the proposal at this time."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
