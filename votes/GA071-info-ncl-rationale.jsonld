@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos pela \"ABSTENÇÃO\" nesta ação de governança (gov_action16f69yf2f35w9ds8sr05ewyr55jg5f439mu8882rv295fvf8m4kcqql7y6nc), pois acreditamos que a compensação financeira para os DReps também deveria ser discutida conjuntamente com a do Comitê Constitucional. É importante deixar claro que não somos contra a compensação — apenas entendemos que o debate deve ocorrer de forma integrada, garantindo coerência entre os diferentes papéis da governança. Discordamos dos argumentos contrários que afirmam que o Comitê possui um número fixo de membros, pois é possível limitar a compensação dos DReps aos que detêm maior delegação, conforme refletido nos diversos workshops realizados no período pré-constitucional ao redor do mundo — inclusive um promovido por nós para o público brasileiro. Sugerimos a re-submissão desta ação de governança, contemplando também a opção de compensação dos DReps em um formato que obtenha maior consenso da comunidade.\n[English]\nWe chose \"ABSTENTION\" on this governance action (gov_action16f69yf2f35w9ds8sr05ewyr55jg5f439mu8882rv295fvf8m4kcqql7y6nc), because we believe that financial compensation for DReps should also be discussed together with that of the Constitutional Committee. It is important to emphasize that we are not against compensation — we simply believe the discussion should take place in an integrated manner, ensuring coherence among the different governance roles. We disagree with the opposing argument that the Committee has a fixed number of members, since it is possible to limit DRep compensation to those with greater delegation power, as reflected in the various workshops held during the pre-constitutional period worldwide — including one we organized for the Brazilian community. We suggest resubmitting this governance action to also include the option of DRep compensation in a model that achieves broader community consensus."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
