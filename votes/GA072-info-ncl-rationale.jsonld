@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança (gov_action15dh2lt4qskmhl97vat8s0l552ruvddrlasa0jndg7lg43g0uju3qq78hvja), pois ela tem como objetivo fortalecer a identidade digital do ecossistema Cardano, garantindo que os domínios .ada e .cardano permaneçam sob gestão da comunidade. A iniciativa amplia a visibilidade do ecossistema, estimula a inovação entre os mundos Web2 e Web3 e assegura transparência e governança aberta, beneficiando toda a comunidade Cardano. Além disso, a proposta define que os fundos a serem utilizados serão aqueles já empenhados pelo tesouro à Fundação Cardano, não gerando, portanto, novos gastos ou ônus adicionais.\n[English]\nWe chose to vote \"YES\" on this governance action (gov_action15dh2lt4qskmhl97vat8s0l552ruvddrlasa0jndg7lg43g0uju3qq78hvja), because it aims to strengthen the digital identity of the Cardano ecosystem, ensuring that the .ada and .cardano domains remain under community management. The initiative enhances ecosystem visibility, promotes innovation between Web2 and Web3, and ensures transparency and open governance, benefiting the entire Cardano community. Furthermore, the proposal clarifies that the funds to be used are those already allocated by the treasury to the Cardano Foundation, thus not creating new expenses or additional financial commitments."
+  },
+  "hashAlgorithm": "blake2b-256"
+}

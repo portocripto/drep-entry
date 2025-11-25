@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança (gov_action1q0m8z7glm9cprucwf44hdjdfra8khnakpm3hu5ueh929hvljw4aqqzuxfxz), pois, embora o valor do empréstimo solicitado ao tesouro seja elevado (5 milhões de ADA), a taxa de juros seja relativamente baixa (2,44% ao ano), o prazo longo (3 a 5 anos) e não tenham sido empenhados ativos em garantia, foram apresentadas fontes de receita e mecanismos de controle e auditoria suficientes para mitigar riscos e proteger os fundos. A SNEK já demonstrou atender aos critérios de listagem em exchanges de nível 1, estando presente na Kraken, Crypto.com e KuCoin, tudo isso com recursos próprios. Trata-se, de fato, do principal token do ecossistema Cardano, com potencial para alcançar uma listagem na Binance — ainda que a proposta não mencione explicitamente esse objetivo. Acreditamos, contudo, que o risco é proporcional ao benefício esperado, uma vez que essa provável listagem poderá abrir as portas para liquidez global, criando um precedente positivo que outros tokens nativos da Cardano poderão seguir.\n[English]\nWe chose to vote \"YES\" on this governance action (gov_action1q0m8z7glm9cprucwf44hdjdfra8khnakpm3hu5ueh929hvljw4aqqzuxfxz), because although the requested treasury loan amount is high (5 million ADA), the interest rate is relatively low (2.44% per year), the term is long (3 to 5 years), and no assets were pledged as collateral, the proposer presented revenue sources and control and audit mechanisms sufficient to reduce risk and protect the funds. SNEK has already proven to meet tier-1 exchange listing criteria, being listed on Kraken, Crypto.com, and KuCoin, all achieved with its own resources. It is, in fact, the leading token of the Cardano ecosystem, with real potential to achieve a Binance listing — even though the proposal does not explicitly state that goal. We believe the risk is justified by the potential reward, as such a listing would enable access to global liquidity, paving the way for other Cardano native tokens to follow."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
