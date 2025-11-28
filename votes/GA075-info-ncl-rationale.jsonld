@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança (gov_action13a2dqgwxum7d6kjfprcs57cf9733ek2dkt5qnuhqd4ll5ntcwu7sqluwkxd), pois ela representa, até o momento, a proposta mais importante discutida no âmbito da governança em 2025. A união das empresas fundadoras — IOG, Fundação Cardano e Emurgo — com o Intersect e a Fundação Midnight, com o objetivo de reparar lacunas críticas de infraestrutura e bases de liquidez, como stablecoins de nível 1, pontes e oráculos, ainda que tardia, é precisamente o passo que faltava para finalmente posicionar a Cardano como uma plataforma verdadeiramente atrativa para o DeFi, TradFi, RWA e para todo o fluxo de liquidez que passará a integrar o ecossistema ao abrir as portas para investidores fora da bolha. Os 70 milhões de ADA solicitados devem ser vistos não como um custo, mas como um investimento estratégico com potencial de atrair bilhões de dólares em TVL para a rede, beneficiando todo o conjunto de investidores, desenvolvedores e construtores que atuam na plataforma de contratos inteligentes mais segura do mercado. Além disso, os fundos solicitados correspondem ao budget remanescente do NCL atual, prestes a expirar, demonstrando sensibilidade e responsabilidade das proponentes em priorizar os recursos comunitários antes de utilizá-los para impulsionar a Cardano rumo à próxima fronteira de crescimento. Apreciamos também o fato de que já existam pré-acordos estabelecidos, orçamentos negociados e cronogramas definidos, o que reforça a eficiência, transparência e seriedade na aplicação do capital solicitado. Vamos, Cardano — o próximo nível nos espera!\n[English]\nWe chose to vote \"YES\" on this governance action (gov_action13a2dqgwxum7d6kjfprcs57cf9733ek2dkt5qnuhqd4ll5ntcwu7sqluwkxd), as it represents the most significant governance proposal discussed in 2025. The alliance between the founding entities — IOG, Cardano Foundation, and Emurgo — together with Intersect and the Midnight Foundation, aiming to address critical infrastructure and liquidity gaps such as tier-1 stablecoins, bridges, and oracles, albeit late, is precisely what was missing to firmly position Cardano as an attractive platform for DeFi, TradFi, RWA, and all forms of liquidity that will flow into the ecosystem as it opens its doors to investors beyond the bubble. The 70 million ADA requested should be seen not as a cost, but as a strategic investment capable of attracting billions of dollars in TVL to the network, benefiting the entire community of investors, developers, and builders operating on the most secure smart contract platform in the market. Moreover, the requested funds represent the remaining budget of the current NCL, which is about to expire, showing the proposers’ awareness and responsibility in prioritizing community resources before deploying them to take Cardano to its next growth frontier. We also appreciate that there are already pre-agreements, negotiated budgets, and pre-defined schedules, reinforcing the efficiency, transparency, and accountability in the management of the proposed capital. Let’s go, Cardano — the next level awaits!"
+  },
+  "hashAlgorithm": "blake2b-256"
+}
