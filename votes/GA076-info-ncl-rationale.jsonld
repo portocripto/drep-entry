@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança (gov_action169kllwhfmp488je5x5rwvufd08p8sztdcf0ghf5sp6ey2gnjdwaqql47xry), pois a prorrogação do NCL atual por mais 8 épocas permitirá que a ação de saque do tesouro “Cardano Critical Integrations Budget” seja analisada em tempo hábil e, se aprovada, utilize os recursos ainda disponíveis e não empregados no NCL vigente. Essa extensão é de fundamental importância para garantir a continuidade dos processos de governança sem interrupções, assegurando o cumprimento das determinações constitucionais e mantendo o ritmo natural de amadurecimento da governança on-chain.\n[English]\nWe chose to vote \"YES\" on this governance action (gov_action169kllwhfmp488je5x5rwvufd08p8sztdcf0ghf5sp6ey2gnjdwaqql47xry), because extending the current NCL by 8 epochs will allow the “Cardano Critical Integrations Budget” treasury withdrawal action to be reviewed in time and, if approved, make use of the remaining unspent funds from the current NCL. This extension is of critical importance to ensure that governance processes continue without disruption, in line with constitutional provisions, and to maintain the natural progress and maturity of Cardano’s on-chain governance."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
