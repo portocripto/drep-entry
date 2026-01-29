@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"NÃO\" nesta ação de governança \"DeltaDeFi: Hydra Trading Infrastructure Budget (₳1,500,000)\" (gov_action15ce4qnwug759939wqv782pvh6qg68khspg8kh02gmex99mcsytwqqqr7jkr), pois não conseguimos visualizar de forma clara como os recursos solicitados poderão, de fato, desbloquear liquidez adicional relevante para o ecossistema Cardano. Entendemos que a proposta carece de maior detalhamento quanto aos mecanismos concretos de geração de impacto econômico e de atração de liquidez. Diante disso, sugerimos que o projeto busque financiamento de forma incremental por meio do Catalyst, permitindo validações progressivas antes de um eventual apoio via tesouro.\n[English]\nWe chose to vote \"NO\" on this governance action \"DeltaDeFi: Hydra Trading Infrastructure Budget (₳1,500,000)\" (gov_action15ce4qnwug759939wqv782pvh6qg68khspg8kh02gmex99mcsytwqqqr7jkr), because we are unable to clearly see how the requested funds would effectively unlock meaningful additional liquidity for the Cardano ecosystem. We believe the proposal lacks sufficient detail regarding concrete mechanisms for economic impact and liquidity generation. Therefore, we suggest that the project seek incremental funding through Catalyst, allowing for progressive validation before considering treasury-level support."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
