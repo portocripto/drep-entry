@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"Name Protocol Version 11 hard fork - van Rossem\" (gov_action13pzmlsmmktmfareqpl3gzj9nm63ugwvmp3y7urkjhd8rf89tn6msq95mp3f), pois ela preserva e reforça a tradição da Cardano de homenagear pessoas que contribuíram de forma excepcional para o ecossistema. Max van Rossem teve um papel decisivo em marcos fundamentais da governança, promovendo debates e melhorias em momentos críticos, como a elaboração da primeira Constituição da Cardano e o estabelecimento do primeiro Comitê Constitucional. Além disso, em sua atuação como DRep, fortaleceu sua comunidade ao conectar pessoas e iniciativas relevantes para o ecossistema. Dar seu nome ao hard fork do Protocolo 11 agrega um valor simbólico e histórico importante, representando um gesto de gratidão, reconhecimento e memória comunitária.\n[English]\nWe chose to vote \"YES\" on this governance action \"Name Protocol Version 11 hard fork - van Rossem\" (gov_action13pzmlsmmktmfareqpl3gzj9nm63ugwvmp3y7urkjhd8rf89tn6msq95mp3f), as it upholds Cardano’s tradition of honoring individuals who have made exceptional contributions to the ecosystem. Max van Rossem played a decisive role in key governance milestones, fostering discussions and improvements during critical moments, such as the drafting of the first Cardano Constitution and the establishment of the first Constitutional Committee. Furthermore, in his role as a DRep, he strengthened his community by connecting people and initiatives across the ecosystem. Naming the Protocol Version 11 hard fork after him adds significant symbolic and historical value, serving as an expression of gratitude, recognition, and collective memory within the Cardano community."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
