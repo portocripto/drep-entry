@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"NÃO\" nesta ação de governança “Cardano Summit 2026 and TOKEN2049 Singapore” (gov_action1hkgl5l4fknsf7aktmcatkz6kfl7xpvn7rzh5vnxwexl0n3cc6zrsqt5459v), pois, embora reconheçamos a importância do Cardano Summit e da presença no TOKEN2049 Singapore para fortalecer a visibilidade e o posicionamento institucional do ecossistema, consideramos o custo total da proposta excessivamente elevado para o atual momento da Cardano. A solicitação de mais de 14 milhões de ADA do Tesouro para iniciativas relacionadas a apenas dois eventos e marketing nos parece desproporcional diante de necessidades mais urgentes do ecossistema, como desenvolvimento técnico, fortalecimento de liquidez, suporte a builders e crescimento sustentável da rede. Além disso, muitos dos resultados esperados são de difícil mensuração objetiva, sem garantias concretas de retorno proporcional ao investimento solicitado. Entendemos que iniciativas desse porte deveriam buscar maior participação de patrocinadores privados e parceiros institucionais, reduzindo a dependência direta dos recursos do Tesouro comunitário. Sugerimos, ainda, o desmembramento da proposta em duas ações separadas, uma para cada evento, bem como uma revisão do orçamento solicitado, permitindo uma análise mais precisa sobre custo-benefício, impacto esperado e prioridades estratégicas da comunidade.\n[English]\nWe chose to vote \"NO\" on this governance action “Cardano Summit 2026 and TOKEN2049 Singapore” (gov_action1hkgl5l4fknsf7aktmcatkz6kfl7xpvn7rzh5vnxwexl0n3cc6zrsqt5459v), because although we recognize the importance of the Cardano Summit and Cardano’s presence at TOKEN2049 Singapore in strengthening ecosystem visibility and institutional positioning, we consider the total cost of the proposal excessively high for Cardano’s current stage. Requesting more than 14 million ADA from the Treasury for just two events and marketing-related initiatives appears disproportionate when compared to more urgent ecosystem priorities, such as technical development, liquidity strengthening, builder support, and sustainable network growth. Furthermore, many of the proposed outcomes are difficult to measure objectively, with no concrete guarantees of returns proportional to the requested investment. We believe initiatives of this scale should seek greater participation from private sponsors and institutional partners, reducing direct dependence on community Treasury resources. We also suggest splitting the proposal into two separate governance actions, one for each event, as well as revising the requested budget to allow for a more precise evaluation of cost-effectiveness, expected impact, and alignment with the community’s strategic priorities."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
