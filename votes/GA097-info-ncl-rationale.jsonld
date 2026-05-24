@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"IO: Developer Experience Initiative\" (gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qqfu3vtv), pois entendemos que ela enfrenta um dos gargalos mais relevantes para o crescimento sustentável da Cardano: a experiência dos desenvolvedores. A iniciativa apresenta entregáveis concretos — como melhorias no Developer Portal, criação do cardano-init, biblioteca de contratos, bounties para ferramentas do ecossistema e um hackathon de medição — que podem reduzir barreiras de entrada, acelerar o onboarding de novos builders e gerar impacto direto em adoção, utilidade e crescimento do ecossistema. Embora o valor solicitado, de ₳3.601.926, seja significativo, consideramos que o orçamento apresenta uma boa relação custo-benefício diante do escopo e do impacto esperado, especialmente por concentrar a maior parte dos recursos em desenvolvimento e engenharia. Também pesam positivamente os mecanismos de controle e transparência previstos, incluindo entregas por marcos, critérios de aceitação, acompanhamento pela Intersect, asseguração independente, prestação de contas pública e devolução de valores não utilizados ao Tesouro.\n[English]\nWe chose to vote \"YES\" on this governance action \"IO: Developer Experience Initiative\" (gov_action1w0shrfxqwv95kk0v4cn34wylz25a2cmqkq5jpc0e2yrahhqava3qqfu3vtv), because we believe it addresses one of the most relevant bottlenecks for Cardano’s sustainable growth: the developer experience. The initiative presents concrete deliverables — such as improvements to the Developer Portal, creation of cardano-init, a smart contract library, ecosystem tool bounties, and a measurement-focused hackathon — which can reduce entry barriers, accelerate onboarding for new builders, and generate direct impact on adoption, utility, and ecosystem growth. Although the requested amount of ₳3,601,926 is significant, we consider the budget to present a strong cost-benefit ratio given the scope and expected impact, especially since most of the resources are concentrated on development and engineering efforts. We also view positively the proposed control and transparency mechanisms, including milestone-based deliverables, acceptance criteria, oversight by Intersect, independent assurance, public reporting, and the return of unused funds to the Treasury."
+  },
+  "hashAlgorithm": "blake2b-256"
+}

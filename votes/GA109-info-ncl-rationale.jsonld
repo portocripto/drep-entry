@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"Tweag Core Cardano Infrastructure: Treasury Withdrawal 2026–2028\" (gov_action14u26vcn3wmcnhc5pqrt6494ypugr7c7f3e2ns60r32cntl6zjtxsqqgeu8p), pois entendemos que ela financia entregas relevantes para a infraestrutura central da Cardano, especialmente o Ouroboros Peras, incluindo melhorias de resiliência, escalabilidade, testes de conformidade, observabilidade da rede e ferramentas para desenvolvedores. Embora o valor solicitado seja expressivo, de ₳39.787.316, o escopo é amplo, distribuído em 17 pacotes de trabalho ao longo de dois anos, e possui potencial de gerar benefícios estruturais para a rede. Também consideramos positivo que a proposta preveja mecanismos claros para mensurar e acompanhar as entregas, como marcos, critérios de aceitação, valores e prazos por etapa, validação por terceiro assegurador, administração pela Intersect, demonstrações públicas, atualizações regulares e controle dos desembolsos por smart contracts de tesouraria. Esses elementos fortalecem a transparência, permitem acompanhar o progresso e tornam o custo-benefício mais defensável, desde que os marcos contratuais sejam publicados e acompanhados de forma clara pela comunidade.\n[English]\nWe chose to vote \"YES\" on this governance action \"Tweag Core Cardano Infrastructure: Treasury Withdrawal 2026–2028\" (gov_action14u26vcn3wmcnhc5pqrt6494ypugr7c7f3e2ns60r32cntl6zjtxsqqgeu8p), because we understand that it funds relevant deliverables for Cardano’s core infrastructure, especially Ouroboros Peras, including improvements in resilience, scalability, conformance testing, network observability, and developer tooling. Although the requested amount is significant, totaling ₳39,787,316, the scope is broad, distributed across 17 work packages over two years, and has the potential to generate structural benefits for the network. We also view positively the fact that the proposal includes clear mechanisms to measure and track deliverables, such as milestones, acceptance criteria, amounts and timelines per stage, validation by a third-party assurer, administration by Intersect, public demos, regular updates, and disbursement control through treasury smart contracts. These elements strengthen transparency, enable progress monitoring, and make the cost-benefit case more defensible, provided that the contractual milestones are published and clearly tracked by the community."
+  },
+  "hashAlgorithm": "blake2b-256"
+}

@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"Cardano Vision 2026: Human Centred, Scalable, Post Quantum Secure - IO Research\" (gov_action1ttgs45ulfxs0jwkfrecystc3flduhszmyzk8wnd7yw5za77tsg9qq4afmus), pois entendemos que ela aborda temas estratégicos para o futuro da Cardano: escalabilidade, melhoria da experiência para usuários e desenvolvedores, segurança pós-quântica, governança, identidade e interoperabilidade. Embora o valor solicitado, de ₳32,916 milhões, seja relevante, o orçamento parece proporcional ao escopo, à quantidade de entregáveis previstos e ao consórcio técnico envolvido, especialmente considerando que a proposta busca transformar pesquisa em CIPs, protótipos e capacidades implementáveis para o ecossistema. Também consideramos positivo que a proposta apresente formas de acompanhamento e controle, com entregáveis definidos, relatórios periódicos, marcos de liberação de recursos, monitoramento pela Intersect, validação por terceiro e mecanismos de transparência on-chain. Esses elementos tornam mais viável medir o progresso, cobrar execução e avaliar se o investimento está gerando valor concreto para a rede.\n[English]\nWe chose to vote \"YES\" on this governance action \"Cardano Vision 2026: Human Centred, Scalable, Post Quantum Secure - IO Research\" (gov_action1ttgs45ulfxs0jwkfrecystc3flduhszmyzk8wnd7yw5za77tsg9qq4afmus), because we understand that it addresses strategic topics for Cardano’s future: scalability, improved user and developer experience, post-quantum security, governance, identity, and interoperability. Although the requested amount of ₳32.916 million is significant, the budget appears proportional to the scope, the number of planned deliverables, and the technical consortium involved, especially considering that the proposal aims to turn research into CIPs, prototypes, and implementable capabilities for the ecosystem. We also view positively that the proposal includes monitoring and control mechanisms, with defined deliverables, periodic reports, funding release milestones, Intersect oversight, third-party validation, and on-chain transparency mechanisms. These elements make it more feasible to measure progress, demand execution, and assess whether the investment is generating concrete value for the network."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
