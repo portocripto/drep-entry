@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"NÃO\" nesta ação de governança \"Cardano at TOKEN2049 Singapore 2026: Top-Up ‘Title’ Sponsorship Upgrade\" (gov_action1kj6ghzuz9wcq88f3y72cyyeekdcemlq0dqk4zpjd4eck5assuypqq0pckkw), pois a proposta anterior, na categoria “Platinum”, já foi aprovada e, em nossa avaliação, garante uma presença forte e adequada da Cardano no TOKEN2049 Singapore 2026, incluindo exposição institucional, estande de destaque, oportunidades de networking, geração de leads e espaço para participação de projetos do ecossistema. Embora o upgrade para a categoria “Title” acrescente benefícios adicionais, como keynote no palco principal, ampliação da área de estande, menções em comunicados à imprensa, introduções à mídia e ativações extras de marca, entendemos que esses ganhos são incrementais e não justificam o custo adicional de ₳1.768.167, equivalente a aproximadamente US$ 424 mil. Consideramos que a relação custo-benefício do upgrade não é suficientemente convincente, especialmente porque os principais objetivos de visibilidade, presença institucional e relacionamento estratégico já estão contemplados pela proposta “Platinum” aprovada anteriormente. Nosso voto \"NÃO\" não representa oposição à participação da Cardano no TOKEN2049, mas sim uma decisão de prudência na utilização dos recursos da Tesouraria. Entendemos que os recursos comunitários devem ser priorizados para iniciativas com impacto mais direto, mensurável e eficiente para o desenvolvimento do ecossistema.\n[English]\nWe chose to vote \"NO\" on this governance action \"Cardano at TOKEN2049 Singapore 2026: Top-Up ‘Title’ Sponsorship Upgrade\" (gov_action1kj6ghzuz9wcq88f3y72cyyeekdcemlq0dqk4zpjd4eck5assuypqq0pckkw), because the previously approved “Platinum” sponsorship proposal already provides what we consider to be a strong and appropriate Cardano presence at TOKEN2049 Singapore 2026, including institutional exposure, a prominent booth, networking opportunities, lead generation, and space for ecosystem projects to participate. While the upgrade to “Title” sponsorship adds benefits such as a main-stage keynote, a larger exhibition area, press release mentions, media introductions, and additional branding activations, we view these advantages as incremental and insufficient to justify the additional cost of ₳1,768,167, equivalent to approximately US$424,000. In our assessment, the cost-benefit ratio of the upgrade is not compelling enough, particularly because the primary objectives of visibility, institutional presence, and strategic relationship-building are already covered by the previously approved “Platinum” proposal. Our \"NO\" vote should not be interpreted as opposition to Cardano’s participation in TOKEN2049. Rather, it reflects a prudent approach to Treasury spending. We believe community resources should be prioritized toward initiatives with more direct, measurable, and efficient impact on ecosystem development."
+  },
+  "hashAlgorithm": "blake2b-256"
+}

@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"NÃO\" nesta ação de governança \"[OriLife × TonFarm] Identifying 180 Million Durians Without Physical Labels\" (gov_action19avrmrhm0gqa4qwlgvh4vxj6nwe02ay42h828cva2zt6n0asddfqqtgph5d), pois, embora a proposta apresente uma tese relevante de adoção no mundo real, envolvendo rastreabilidade agrícola, identidades descentralizadas (DIDs), NFTs dinâmicos e integração com a cadeia de suprimentos do durião no Vietnã, entendemos que o pedido de ₳2.400.000 ainda não está suficientemente justificado para uma retirada do Tesouro neste momento. A proposta combina entregas obrigatórias com módulos opcionais e depende de premissas ambiciosas relacionadas à adoção em larga escala, avanços regulatórios locais e crescimento da atividade on-chain. Embora as metas apresentadas — como a identificação de 180 milhões de frutas, 24 mil usuários e entre 1 e 1,2 milhão de eventos on-chain por ano — sejam expressivas, elas ainda são descritas como objetivos de capacidade e projeções de crescimento, e não como demanda contratada ou utilização comprovada em produção em escala. Nosso voto \"NÃO\" não representa uma rejeição ao problema que a proposta busca resolver nem ao potencial da solução apresentada. Pelo contrário, reconhecemos que iniciativas de rastreabilidade e identidade digital podem contribuir para ampliar casos de uso da Cardano em mercados reais. No entanto, avaliamos que a proposta ainda apresenta riscos relevantes de execução, validação tecnológica, dependência de parceiros locais, governança dos mecanismos de escrow, comprovação de retorno para o ecossistema Cardano e conversão de projetos-piloto em adoção sustentável. Além disso, parte do valor prometido para o ecossistema — incluindo possíveis integrações governamentais, expansão via SDK e utilização de tecnologias como Midnight — é apresentada como uma possibilidade futura, condicionada ao desenvolvimento de fatores externos e à evolução do próprio ecossistema. Por esse motivo, entendemos que a proposta deveria retornar com evidências adicionais de demanda vinculante, validação independente da tecnologia Bio-ID/VeData, compromissos comerciais ou institucionais mais concretos e uma estratégia mais conservadora de liberação de recursos antes de receber uma alocação dessa magnitude.\n[English]\nWe chose to vote \"NO\" on this governance action \"[OriLife × TonFarm] Identifying 180 Million Durians Without Physical Labels\" (gov_action19avrmrhm0gqa4qwlgvh4vxj6nwe02ay42h828cva2zt6n0asddfqqtgph5d), because although the proposal presents a compelling real-world adoption thesis involving agricultural traceability, decentralized identities (DIDs), dynamic NFTs, and integration with Vietnam’s durian supply chain, we believe that the requested ₳2.4 million treasury allocation is not yet sufficiently justified. The proposal combines mandatory deliverables with optional modules and relies on ambitious assumptions regarding large-scale adoption, local regulatory developments, and projected on-chain activity. While the stated targets — including 180 million identified fruits, 24,000 users, and between 1 and 1.2 million on-chain events per year — are impressive, they are currently presented as capacity goals and growth projections rather than contracted demand or proven large-scale production usage. Our \"NO\" vote should not be interpreted as a rejection of the problem being addressed or the potential value of the proposed solution. On the contrary, we recognize that traceability and digital identity initiatives can help expand Cardano’s real-world use cases. However, we believe the proposal still carries significant risks related to execution, technological validation, dependence on local partners, escrow governance, demonstration of return on investment for the Cardano ecosystem, and the conversion of pilot projects into sustainable adoption. Furthermore, part of the value proposition for the ecosystem — including potential government adoption, SDK-driven expansion, and future use of technologies such as Midnight — is presented as a future possibility rather than an already established outcome. For these reasons, we believe the proposal should return with additional evidence of binding demand, independent validation of the Bio-ID/VeData technology, clearer commercial or institutional commitments, and a more conservative funding release strategy before receiving a treasury allocation of this magnitude."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
