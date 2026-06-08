@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"The first node in the browser; a Cardano USP\" (gov_action1guz68e8zkwphcdc8wnp40cclkv92qgnel7xnffmsmp2ljp09qtwqq596k4c), pois o Gerolamo transforma uma vantagem técnica específica da Cardano em um produto concreto: um nó leve, validador e executável diretamente no navegador. Essa iniciativa fortalece a proposta de valor da rede ao permitir que dApps e carteiras acessem e validem dados da blockchain com menor dependência de RPCs, indexadores ou outras infraestruturas centralizadas. Também consideramos positivo o foco em descentralização prática, diversidade de clientes e melhoria da experiência dos desenvolvedores que utilizam TypeScript/JavaScript, um dos maiores ecossistemas de desenvolvimento do mundo. A disponibilização de um nó executável em extensão de navegador pode ampliar o acesso à verificação local de dados, beneficiando carteiras leves, aplicações descentralizadas e futuras soluções de interoperabilidade, como bridges e camadas de escalabilidade (L2s). Por fim, a proposta apresenta um escopo bem delimitado, com marcos trimestrais verificáveis, utilização de mecanismos de escrow, supervisão por comitê independente, contingência reembolsável e relatórios públicos. Esses elementos reduzem o risco para a tesouraria, aumentam a transparência da execução e tornam o financiamento mais responsável, auditável e alinhado aos objetivos estratégicos de longo prazo da Cardano.\n[English]\nWe chose to vote \"YES\" on this governance action \"The first node in the browser; a Cardano USP\" (gov_action1guz68e8zkwphcdc8wnp40cclkv92qgnel7xnffmsmp2ljp09qtwqq596k4c), because Gerolamo turns a unique technical advantage of Cardano into a tangible product: a lightweight validating node that can run directly in a web browser. This initiative strengthens Cardano’s value proposition by enabling dApps and wallets to access and verify blockchain data with reduced reliance on RPC providers, indexers, or other centralized infrastructure. We also view positively the proposal’s focus on practical decentralization, client diversity, and improving the developer experience for the TypeScript/JavaScript ecosystem, one of the largest developer communities in the world. Delivering a browser-based node can expand access to local verification capabilities, benefiting lightweight wallets, decentralized applications, and future interoperability solutions such as bridges and Layer 2 protocols. Finally, the proposal presents a clearly defined scope, with verifiable quarterly milestones, escrow mechanisms, independent oversight, refundable contingency funds, and public reporting. These elements reduce treasury risk, improve execution transparency, and make the funding more responsible, auditable, and aligned with Cardano’s long-term strategic objectives."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
