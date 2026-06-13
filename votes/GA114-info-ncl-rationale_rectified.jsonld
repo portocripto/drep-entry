@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"NÃO\" nesta ação de governança \"Cardano dOSPO and OMF Program\" (gov_action1pv7g8d0x9f3kqw2gcfrmgl8aqy38jat05wx0wwcvdsvuuclss6xqqhpzemv), pois, embora reconheçamos a importância da sustentabilidade do software livre para o ecossistema Cardano e concordemos que a proposta aborda riscos reais — como a dependência de poucos mantenedores, a ausência de planos de sucessão e a necessidade de maior coordenação operacional — avaliamos que o escopo apresentado é excessivamente amplo para uma iniciativa inicial. A proposta concentra diversos programas, estruturas organizacionais e processos que ainda precisariam ser criados, validados e amadurecidos ao longo da própria execução, incluindo conselhos, entidades jurídicas, mecanismos de governança e metodologias operacionais. Em nossa avaliação, essa combinação aumenta os riscos de complexidade administrativa, reduz a previsibilidade das entregas e dificulta a mensuração objetiva do impacto em relação ao montante solicitado. Também entendemos que a proposta transfere responsabilidades significativas para uma estrutura que ainda não está plenamente constituída, bem como para um operador de transição que precisaria demonstrar, na prática, capacidade de governança independente, eficiência orçamentária e execução em escala. Embora apoiemos iniciativas voltadas à manutenção de infraestrutura crítica e à formação de novos contribuidores, acreditamos que um programa dessa natureza deveria começar com um escopo mais enxuto, metas mais objetivas, orçamento progressivo e validação prévia dos mecanismos de seleção, auditoria e prestação de contas. Por esses motivos, entendemos que a proposta ainda não atingiu o nível de maturidade necessário para justificar o financiamento solicitado neste momento.\n[English]\nWe chose to vote \"NO\" on this governance action \"Cardano dOSPO and OMF Program\" (gov_action1pv7g8d0x9f3kqw2gcfrmgl8aqy38jat05wx0wwcvdsvuuclss6xqqhpzemv), because although we recognize the importance of open-source sustainability for the Cardano ecosystem and agree that the proposal addresses real risks — such as dependence on a small number of maintainers, the lack of succession planning, and the need for stronger operational coordination — we believe the proposed scope is overly broad for an initial initiative. The proposal combines multiple programs, organizational structures, and processes that would still need to be created, validated, and matured during execution, including governance bodies, legal entities, operational methodologies, and oversight mechanisms. In our view, this significantly increases administrative complexity, reduces delivery predictability, and makes it more difficult to objectively measure impact relative to the requested funding. We also believe the proposal places substantial operational responsibility on a structure that has not yet been fully established, as well as on a transition operator that would still need to demonstrate independent governance, budget efficiency, and large-scale execution capability. While we support initiatives aimed at maintaining critical infrastructure and cultivating new contributors, we believe a program of this nature should begin with a narrower scope, more objective goals, a progressive budget, and prior validation of its selection, auditing, and accountability mechanisms. For these reasons, we believe the proposal has not yet reached the level of maturity necessary to justify the requested funding at this time."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
