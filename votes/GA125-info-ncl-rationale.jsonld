@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"Reimburse Ikigai Info Governance Action Deposit\" (gov_action1654yj97lf7guxsh27phtknq2tsc4dajp95fh7vrucaltjy0502csq7qtkhq), pois compreendemos que esta proposta busca corrigir uma situação excepcional ocorrida nos primeiros momentos da governança on-chain da Cardano, quando uma ação informativa de caráter simbólico foi submetida e, em razão de uma falha técnica no código do node, o depósito de 100.000 ADA não pôde ser recuperado pelo proponente. Avaliamos que o submitter não deve ser penalizado por ter atuado como pioneiro durante um período inicial de transição e experimentação do novo modelo de governança, especialmente considerando que a ação apresentada possuía caráter comunitário, simbólico e contribuía positivamente para o ecossistema. Também apoiamos o voto \"SIM\" por entendermos que o reembolso representa uma medida justa, proporcional e alinhada ao princípio da boa-fé na participação em governança. A inclusão de 3.000 ADA adicionais, referente à compensação estimada pelas recompensas de staking que deixaram de ser recebidas durante esse período, também nos parece razoável diante do tempo decorrido e do impacto financeiro causado. Assim, entendemos que a aprovação desta retirada do Tesouro contribui para preservar a confiança da comunidade nos processos de governança, corrigir uma falha operacional excepcional e reconhecer adequadamente aqueles que contribuíram de forma construtiva desde os estágios iniciais da governança on-chain da Cardano.\n[English]\nWe chose to vote \"YES\" on this governance action \"Reimburse Ikigai Info Governance Action Deposit\" (gov_action1654yj97lf7guxsh27phtknq2tsc4dajp95fh7vrucaltjy0502csq7qtkhq), because we understand that this proposal seeks to correct an exceptional situation that occurred during the early stages of Cardano’s on-chain governance, when a symbolic informational governance action was submitted and, due to a technical issue in the node software, the 100,000 ADA governance deposit could not be recovered by the proposer. We believe the submitter should not be penalized for acting as a pioneer during the initial transition and experimentation period of the new governance model, particularly given that the submitted action was community-oriented, symbolic in nature, and intended to benefit the broader ecosystem. We also support a \"YES\" vote because we consider the requested reimbursement to be a fair and proportionate remedy, consistent with the principle of good-faith participation in governance. The inclusion of an additional 3,000 ADA to compensate for the estimated staking rewards that could not be earned during this period also appears reasonable given the elapsed time and the financial impact caused by the incident. For these reasons, we believe approving this Treasury withdrawal helps preserve community trust in Cardano’s governance processes, corrects an exceptional operational failure, and appropriately recognizes those who contributed constructively during the earliest stages of on-chain governance."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
