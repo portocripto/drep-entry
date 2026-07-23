@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"Withdraw 1,162,746 ADA for MLabs Core Tool Maintenance & Enhancement: Plutarch and Ply\" (gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8svfsvefn), pois entendemos que a proposta financia a continuidade e a evolução de ferramentas essenciais para o desenvolvimento de contratos inteligentes na Cardano. A manutenção do Plutarch e do Ply contribui para reduzir riscos de incompatibilidade, evitar falhas decorrentes da evolução do protocolo e minimizar custos de migração para equipes e projetos que já dependem dessas soluções. O valor solicitado, de ₳1.162.746, nos parece proporcional ao escopo das atividades previstas e apresenta uma boa relação custo-benefício diante da importância dessas ferramentas para desenvolvedores e para o ecossistema como um todo. Ao garantir a manutenção contínua e a evolução dessas bibliotecas, a proposta fortalece a infraestrutura de desenvolvimento da Cardano e contribui para a criação de aplicações mais seguras e eficientes. Também avaliamos positivamente os mecanismos de governança, controle e transparência previstos na proposta, incluindo desembolsos condicionados ao cumprimento de marcos, obrigações periódicas de prestação de contas, supervisão independente e acompanhamento público da execução por meio de contratos inteligentes e painel on-chain. Esses mecanismos aumentam a rastreabilidade da utilização dos recursos da Tesouraria e permitem que a comunidade acompanhe a evolução das entregas de forma transparente.\n[English]\nWe chose to vote \"YES\" on this governance action \"Withdraw 1,162,746 ADA for MLabs Core Tool Maintenance & Enhancement: Plutarch and Ply\" (gov_action1k02990lhw6wh74t7c6ufw3mqaek9ujtvyan99dj5qv5kvcs7pn8svfsvefn), because we believe the proposal funds the continued maintenance and enhancement of essential tools for smart contract development on Cardano. Ongoing support for Plutarch and Ply helps reduce compatibility risks, prevent issues arising from protocol evolution, and minimize costly migrations for development teams and projects that already rely on these technologies. The requested ₳1,162,746 appears proportionate to the proposed scope of work and represents good value considering the importance of these tools to developers and the broader Cardano ecosystem. By ensuring their continued maintenance and improvement, the proposal strengthens Cardano’s development infrastructure and supports the creation of more secure and efficient decentralized applications. We also view the proposal’s governance, oversight, and transparency mechanisms positively. These include milestone-based disbursements, regular accountability reporting, independent supervision, and public on-chain monitoring through smart contracts and a public dashboard. Together, these measures improve transparency, strengthen accountability, and enable the community to verify how Treasury resources are being used throughout the project."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
