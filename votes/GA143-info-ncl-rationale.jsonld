@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027\" (gov_action1mr0qdz2jmagvsch6r08fhqvq6vu8jakt4c8m9s7ea7z0p740vntqq4yjd6j), pois entendemos que a proposta assegura a continuidade e a evolução da Daedalus, a única carteira desktop full node da Cardano. Sua manutenção é essencial para preservar a segurança, a soberania dos usuários sobre seus ativos e a compatibilidade com futuras atualizações do protocolo, além de ampliar a integração com aplicações descentralizadas e novos dispositivos de hardware. O valor solicitado, de ₳1.785.333, nos parece compatível com o escopo das atividades previstas, incluindo manutenção contínua, suporte multiplataforma e implementação de novas funcionalidades. Avaliamos que a proposta apresenta uma relação custo-benefício adequada diante da importância estratégica da Daedalus para o ecossistema Cardano e para os usuários que optam por uma experiência totalmente descentralizada. Também consideramos positivos os mecanismos de governança, controle e transparência previstos na proposta, como desembolsos mensais condicionados à verificação das entregas, auditoria financeira, supervisão independente da Intersect, utilização de contratos inteligentes para gestão dos pagamentos e acompanhamento público da execução por meio de registros on-chain. Esses mecanismos reforçam a responsabilidade na utilização dos recursos da Tesouraria e permitem que a comunidade acompanhe a evolução do projeto de forma transparente.\n[English]\nWe chose to vote \"YES\" on this governance action \"Se7en Labs: Daedalus Wallet Maintenance and Improvements 2026-2027\" (gov_action1mr0qdz2jmagvsch6r08fhqvq6vu8jakt4c8m9s7ea7z0p740vntqq4yjd6j), because we believe the proposal ensures the continued maintenance and evolution of Daedalus, Cardano’s only desktop full-node wallet. Maintaining this software is essential to preserving user security, self-custody, and compatibility with future protocol upgrades, while also expanding support for decentralized applications and new hardware wallet integrations. The requested ₳1,785,333 appears proportionate to the proposed scope of work, which includes ongoing maintenance, cross-platform support, and the delivery of new features. In our view, the proposal offers good value considering Daedalus’ strategic importance to the Cardano ecosystem and to users who prefer a fully decentralized wallet experience. We also view the proposal’s governance, oversight, and transparency mechanisms positively. These include monthly disbursements tied to verified work, financial audits, independent oversight by Intersect, smart contract-based payment management, and public on-chain monitoring of project execution. Together, these measures strengthen accountability and provide the community with clear visibility into how Treasury resources are being used."
+  },
+  "hashAlgorithm": "blake2b-256"
+}

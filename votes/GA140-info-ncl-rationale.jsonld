@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"NÃO\" nesta ação de governança \"Alchemy by Sundial x Charms: Cardano-Native Bitcoin Treasury Protocol\" (gov_action1pa6a6yd7pdaxed9nqkshtvtu7jmqe5c8cpf0ej4lnatjj588qkpsq2x2sz2), pois, embora reconheçamos a relevância estratégica de desenvolver uma infraestrutura BTCfi nativa na Cardano, entendemos que o valor solicitado, de ₳10.000.000, é elevado para um protocolo que ainda enfrenta riscos significativos relacionados à adoção, liquidez, volatilidade do Bitcoin, dependência de oráculos, pontes entre redes e à própria execução técnica da solução. Reconhecemos que a proposta incorpora mecanismos positivos de governança, controle e transparência, como liberação de recursos por etapas, auditorias independentes, relatórios mensais, segregação dos recursos e regras para pausa das operações e eventual devolução de fundos ao Tesouro. No entanto, avaliamos que esses mecanismos, por si só, não são suficientes para compensar as incertezas inerentes a um protocolo que ainda precisa demonstrar sua viabilidade prática, demanda de mercado e sustentabilidade econômica. Dessa forma, entendemos que a relação entre custo e benefício ainda não está suficientemente comprovada para justificar esse nível de exposição dos recursos da Tesouraria. Consideramos que uma validação mais robusta do produto, acompanhada de evidências concretas de adoção e de um modelo sustentável de operação, proporcionaria uma base mais sólida para uma eventual aprovação futura.\n[English]\nWe chose to vote \"NO\" on this governance action \"Alchemy by Sundial x Charms: Cardano-Native Bitcoin Treasury Protocol\" (gov_action1pa6a6yd7pdaxed9nqkshtvtu7jmqe5c8cpf0ej4lnatjj588qkpsq2x2sz2), because although we recognize the strategic importance of developing native BTCfi infrastructure on Cardano, we believe the requested ₳10,000,000 is a substantial investment for a protocol that still faces significant risks related to adoption, liquidity, Bitcoin price volatility, oracle dependencies, cross-chain bridges, and overall technical execution. We acknowledge that the proposal includes positive governance, oversight, and transparency mechanisms, such as milestone-based funding, independent audits, monthly reporting, segregation of Treasury funds, and clear procedures for pausing operations and returning funds if necessary. However, we do not believe these safeguards alone are sufficient to offset the uncertainties surrounding a protocol that has yet to demonstrate practical viability, market demand, and long-term sustainability. For these reasons, we believe the proposal has not yet established a sufficiently compelling cost-benefit case to justify this level of Treasury exposure. A more mature product, supported by clear evidence of adoption and a proven sustainable operating model, would provide a stronger foundation for future consideration."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
