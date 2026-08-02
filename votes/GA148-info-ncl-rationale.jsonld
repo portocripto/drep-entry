@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"Bifrost: Unlocking Bitcoin DeFi on Cardano — Road to Mainnet (Phase 1 of 2)\" (gov_action1mlvplrdk2t7eyclqeca77ppmfq3sghkr5hdppjqhdqdd573r7q6qqms7jwt), pois entendemos que a proposta busca desenvolver uma infraestrutura estratégica para conectar a liquidez do Bitcoin ao ecossistema DeFi da Cardano, criando condições para ampliar o valor total bloqueado (TVL), atrair novos usuários, aumentar a atividade on-chain e expandir as oportunidades para aplicações descentralizadas e operadores de stake pools (SPOs). Embora o valor solicitado, de ₳12.332.031, incluindo uma contingência reembolsável de 10%, seja significativo, avaliamos que o orçamento está detalhado e concentrado em atividades essenciais, como desenvolvimento, auditorias, verificação formal e preparação para a implantação em mainnet. Consideramos que a relação entre custo e benefício é justificável diante da complexidade técnica e do potencial impacto da iniciativa para o ecossistema. Também avaliamos positivamente os mecanismos de governança, controle e transparência previstos na proposta, incluindo liberação de recursos condicionada ao cumprimento de marcos, utilização de contratos de escrow, supervisão por um conselho independente, auditorias técnicas e financeiras, relatórios públicos periódicos e registro transparente das movimentações. Esses mecanismos reforçam a responsabilidade na utilização dos recursos da Tesouraria e permitem o acompanhamento contínuo da execução do projeto pela comunidade.\n[English]\nWe chose to vote \"YES\" on this governance action \"Bifrost: Unlocking Bitcoin DeFi on Cardano — Road to Mainnet (Phase 1 of 2)\" (gov_action1mlvplrdk2t7eyclqeca77ppmfq3sghkr5hdppjqhdqdd573r7q6qqms7jwt), because we believe the proposal aims to build strategic infrastructure that connects Bitcoin liquidity to Cardano’s DeFi ecosystem, creating opportunities to increase total value locked (TVL), attract new users, expand on-chain activity, and strengthen the ecosystem for decentralized applications and stake pool operators (SPOs). Although the requested ₳12,332,031, including a 10% refundable contingency, is substantial, we believe the budget is well structured and focused on essential activities such as software development, security audits, formal verification, and preparation for mainnet deployment. In our view, the proposal presents a reasonable cost-benefit balance given its technical complexity and potential long-term impact on the Cardano ecosystem. We also view the proposal’s governance, oversight, and transparency mechanisms positively. These include milestone-based fund releases, escrow-based Treasury management, oversight by an independent council, technical and financial audits, regular public reporting, and transparent disclosure of financial transactions. Together, these measures strengthen accountability and enable the community to effectively monitor project execution and the responsible use of Treasury resources."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
