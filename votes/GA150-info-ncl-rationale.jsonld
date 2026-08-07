@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"Withdraw 120,000,000 ADA for AlphaGrowth’s Cardano PRIME\" (gov_action122wue2k65qq8gmpz795z2axt8apka6ay6xt3pwg8jxj5yfkujmtsqvlfpu7), pois entendemos que a proposta busca enfrentar um dos principais gargalos atuais do ecossistema Cardano: a baixa profundidade de liquidez e a dificuldade de transformar avanços de infraestrutura em atividade econômica sustentável no DeFi. Embora o valor solicitado, de ₳120 milhões, seja expressivo, avaliamos positivamente a estrutura de execução em fases, com liberação de recursos condicionada ao cumprimento de marcos e critérios previamente definidos, contribuindo para uma relação mais equilibrada entre risco e benefício. Também consideramos relevantes os mecanismos de governança, controle e transparência previstos, incluindo supervisão pelo Operating Group, administração dos recursos pela Intersect em conta separada e auditável, publicação das recomendações e dos desembolsos realizados, orçamento específico para auditoria independente e gatilhos para devolução ao Tesouro dos recursos não utilizados ou não liberados. Esses mecanismos aumentam a verificabilidade da execução, permitem maior acompanhamento pela comunidade e ajudam a reduzir os riscos associados à gestão de uma alocação dessa magnitude.\n[English]\nWe chose to vote \"YES\" on this governance action \"Withdraw 120,000,000 ADA for AlphaGrowth’s Cardano PRIME\" (gov_action122wue2k65qq8gmpz795z2axt8apka6ay6xt3pwg8jxj5yfkujmtsqvlfpu7), because we believe the proposal seeks to address one of the Cardano ecosystem’s most significant current challenges: limited liquidity depth and the difficulty of translating infrastructure improvements into sustainable economic activity within DeFi. Although the requested ₳120 million is substantial, we view the phased execution structure positively, with funding releases tied to predefined milestones and criteria, helping to create a more balanced risk-benefit profile. We also consider the proposed governance, oversight, and transparency mechanisms to be important, including supervision by the Operating Group, management of the funds by Intersect through a separate auditable account, public disclosure of recommendations and disbursements, a dedicated budget for independent auditing, and triggers for returning unused or unreleased funds to the Treasury. These mechanisms improve the verifiability of execution, enable greater community oversight, and help mitigate the risks associated with managing an allocation of this magnitude."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
