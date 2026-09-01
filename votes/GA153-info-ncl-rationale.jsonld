@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"Update Constitutional Committee 2026\" (gov_action1w2w64uhelz0cg2np7m37hal905tdd7jpzm3fcyc3g7qvkwgfppgqqfsggt5), pois entendemos que ela é importante para garantir a continuidade, a legitimidade e o funcionamento do Comitê Constitucional, renovando as cadeiras com mandato próximo do vencimento com base no resultado de uma eleição comunitária já realizada. A proposta não solicita recursos do Tesouro, portanto não há impacto orçamentário direto nem questões relacionadas ao custo-benefício financeiro. Além disso, o processo contou com votação pública, resultados verificáveis on-chain e auditoria independente conduzida pela DQuadrant, oferecendo mecanismos adequados de controle, transparência e validação do resultado eleitoral.\n[English]\nWe chose to vote \"YES\" on this governance action \"Update Constitutional Committee 2026\" (gov_action1w2w64uhelz0cg2np7m37hal905tdd7jpzm3fcyc3g7qvkwgfppgqqfsggt5), because we believe it is important to ensure the continuity, legitimacy, and proper functioning of the Constitutional Committee by renewing seats whose terms are approaching expiration based on the results of an already completed community election. The proposal does not request Treasury funds, so there is no direct budgetary impact or financial cost-benefit consideration. Furthermore, the process included a public vote, on-chain verifiable results, and an independent audit conducted by DQuadrant, providing appropriate mechanisms for oversight, transparency, and validation of the election results."
+  },
+  "hashAlgorithm": "blake2b-256"
+}

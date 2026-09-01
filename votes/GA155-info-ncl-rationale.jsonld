@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"Reimburse Ikigai Info Governance Action Deposit.\" (gov_action105mjyzm3spjppny2m776lwk5jnsuu07uva9tz0yg5u4nkf770rvsql5raht), pois entendemos que ela corrige uma perda causada por uma falha técnica ocorrida nos primeiros momentos da governança on-chain da Cardano, evitando que um participante pioneiro seja penalizado por um problema do próprio sistema. O valor solicitado, de ₳103.000, é limitado e proporcional ao objetivo da proposta: reembolsar os ₳100.000 do depósito que não pôde ser recuperado e compensar parcialmente as recompensas de staking que deixaram de ser recebidas. Consideramos a relação entre custo e benefício favorável, especialmente porque não há despesas administrativas adicionais e os recursos serão transferidos diretamente ao destinatário. Além disso, o pagamento poderá ser verificado on-chain pela comunidade, garantindo transparência, rastreabilidade e controle sobre a utilização dos recursos do Tesouro.\n[English]\nWe chose to vote \"YES\" on this governance action \"Reimburse Ikigai Info Governance Action Deposit.\" (gov_action105mjyzm3spjppny2m776lwk5jnsuu07uva9tz0yg5u4nkf770rvsql5raht), because we believe it addresses a loss caused by a technical issue during the early stages of Cardano’s on-chain governance, ensuring that a pioneering participant is not penalized for a problem within the system itself. The requested ₳103,000 is limited and proportional to the proposal’s objective: reimbursing the ₳100,000 deposit that could not be recovered and partially compensating for the staking rewards that were not received. We consider the cost-benefit balance favorable, particularly because there are no additional administrative expenses and the funds will be transferred directly to the recipient. Furthermore, the payment can be verified on-chain by the community, ensuring transparency, traceability, and oversight of the use of Treasury funds."
+  },
+  "hashAlgorithm": "blake2b-256"
+}

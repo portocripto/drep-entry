@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "body": {
+    "comment": "[Portuguese]\nOptamos por votar \"SIM\" nesta ação de governança \"Reduce minPoolCost to 75 ada and increase Plutus Memory Limits (Part 2)\" (gov_action14dr5yg75pchr2sz42djtuflpvx5qnsek29qg7s7cft8lzrqt5vrqqtqntpk), pois entendemos que ela promove ajustes relevantes para a sustentabilidade, competitividade e eficiência da rede Cardano. A redução do minPoolCost tende a melhorar as condições competitivas para pools menores, enquanto o aumento dos limites de memória do Plutus amplia a capacidade de execução de aplicações mais complexas. Também consideramos positivo que essas alterações sejam implementadas de forma gradual e tenham sido previamente submetidas à avaliação técnica. A proposta não solicita recursos do Tesouro, portanto não há impacto orçamentário direto nem questões relacionadas ao custo-benefício financeiro. Além disso, as alterações seguem os guardrails da Cardano, foram analisadas pelo Parameter Committee e pelo Technical Steering Committee e dependem de aprovação on-chain pelos DReps e SPOs. Esses elementos proporcionam mecanismos adequados de controle, revisão técnica e transparência para a implementação das mudanças.\n[English]\nWe chose to vote \"YES\" on this governance action \"Reduce minPoolCost to 75 ada and increase Plutus Memory Limits (Part 2)\" (gov_action14dr5yg75pchr2sz42djtuflpvx5qnsek29qg7s7cft8lzrqt5vrqqtqntpk), because we believe it introduces meaningful adjustments that support Cardano’s sustainability, competitiveness, and network efficiency. Reducing minPoolCost should improve competitive conditions for smaller stake pools, while increasing Plutus memory limits expands the network’s capacity to support more complex applications. We also view positively that these changes are being introduced gradually and have undergone prior technical assessment. The proposal does not request Treasury funds, so there is no direct budgetary impact or financial cost-benefit consideration. Furthermore, the changes comply with Cardano’s guardrails, have been reviewed by the Parameter Committee and the Technical Steering Committee, and require on-chain approval from DReps and SPOs. Together, these elements provide appropriate technical oversight, governance controls, and transparency for implementing the proposed changes."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
